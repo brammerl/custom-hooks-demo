@@ -4,7 +4,6 @@ import useFetchData from "./hooks/useFetchData";
 function App() {
   
   const { data, loading, error } = useFetchData('boards')
-  console.log(data);
   
   if(loading) {
     <div>loading</div>
